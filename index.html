@@ -137,7 +137,8 @@
             <article class="choice-card">
               <h3>Analyze portfolio</h3>
               <p>
-                Paste your holdings and get a structured portfolio intelligence review with themes, charts, and action steps.
+                Paste your holdings and get a quick breakdown of how concentrated your
+                investments are.
               </p>
               <button type="button" class="secondary-btn" data-target="analysis-screen">
                 Analyze portfolio
@@ -146,8 +147,8 @@
             <article class="choice-card">
               <h3>Get starter plan</h3>
               <p>
-                See a short written summary based on the answers you gave in the
-                questionnaire.
+                See your investor bucket, portfolio style, and simple investing
+                options based on the answers you gave in the questionnaire.
               </p>
               <button type="button" class="secondary-btn" data-target="starter-screen">
                 Get starter plan
@@ -159,7 +160,7 @@
         <section class="panel" id="analysis-screen" aria-labelledby="analysis-title">
           <div class="panel-header">
             <h2 id="analysis-title">Analyze portfolio</h2>
-            <p>Enter one holding per line in the format <strong>AAPL — 5000</strong> to get a portfolio intelligence review with archetypes, warnings, charts, and fixes. For cash, just write format of <strong>CASH — 5000</strong>.</p>
+            <p>Enter one holding per line in the format <strong>AAPL - 5000</strong> to get a rules-based portfolio review.</p>
           </div>
           <form id="analysis-form" class="form-grid">
             <label class="full-width">
@@ -171,15 +172,6 @@
                 required
               ></textarea>
             </label>
-            <div class="analysis-preview full-width">
-              <strong>What shows up after you analyze</strong>
-              <ul>
-                <li>A standard 5-part response: diagnosis, main issue, secondary issues, positives, and next steps</li>
-                <li>Primary archetype, optional secondary archetype, and deterministic action priorities</li>
-                <li>Specific action steps to fix the portfolio issues</li>
-                <li>Sector and geography charts plus a portfolio health score</li>
-              </ul>
-            </div>
             <button type="submit" class="primary-btn">Analyze holdings</button>
             <button type="button" class="ghost-btn" data-target="choice-screen">Back</button>
           </form>
@@ -188,8 +180,8 @@
 
         <section class="panel" id="starter-screen" aria-labelledby="starter-title">
           <div class="panel-header">
-            <h2 id="starter-title">Your starter plan summary</h2>
-            <p>A short personalized summary based on your questionnaire answers.</p>
+            <h2 id="starter-title">Getting started investing</h2>
+            <p>Your bucket, suggested portfolio style, and simple ways to get started.</p>
           </div>
           <div id="starter-output" class="result-card"></div>
           <button type="button" class="ghost-btn" data-target="choice-screen">Back</button>
