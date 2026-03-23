@@ -262,6 +262,57 @@ button:hover {
   color: var(--notice);
 }
 
+
+.starter-stack h3,
+.starter-stack h4,
+.starter-stack h5,
+.starter-kicker,
+.starter-snapshot strong,
+.starter-list li {
+  color: white;
+}
+
+.starter-hero-card {
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.18), rgba(59, 130, 246, 0.08));
+}
+
+.starter-kicker {
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  color: #7dd3fc;
+}
+
+.starter-snapshot {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.starter-grid {
+  align-items: start;
+}
+
+.starter-list {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.starter-list li + li {
+  margin-top: 0.45rem;
+}
+
+.starter-option-grid {
+  margin-top: 1rem;
+}
+
+.starter-option-card h5 {
+  margin: 0 0 0.45rem;
+  font-size: 1rem;
+}
+
 .hidden {
   display: none;
 }
